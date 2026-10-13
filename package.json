@@ -1,0 +1,29 @@
+{
+  "name": "hefaisto",
+  "version": "0.0.1",
+  "description": "obsidian plugin",
+  "keywords": [
+    "obsidian",
+    "hefajstos",
+    "volcan",
+    "bos",
+    "blacksmith",
+    "organization",
+    "system"
+  ],
+  "homepage": "https://github.com/Sarverott/hefaisto#readme",
+  "bugs": {
+    "url": "https://github.com/Sarverott/hefaisto/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarverott/hefaisto.git"
+  },
+  "license": "CC-BY-SA-4.0",
+  "author": "Sett Sarverott",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "task test"
+  }
+}
