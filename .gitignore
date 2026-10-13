@@ -1,0 +1,8 @@
+node_modules
+
+# compiled plugin - built from src by esbuild
+main.js
+*.map
+
+# settings saved by obsidian
+data.json

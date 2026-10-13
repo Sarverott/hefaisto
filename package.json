@@ -22,8 +22,16 @@
   "license": "CC-BY-SA-4.0",
   "author": "Sett Sarverott",
   "type": "module",
-  "main": "src/index.js",
+  "main": "main.js",
   "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc && node esbuild.config.mjs production",
     "test": "task test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.14.4",
+    "typescript": "^7.0.2"
   }
 }

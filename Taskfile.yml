@@ -2,12 +2,23 @@
 
 version: '3'
 
-vars:
-  GREETING: Hello, world!
-
 tasks:
   default:
-    desc: Print a greeting message
     cmds:
-      - echo "{{.GREETING}}"
+      - task --list
     silent: true
+
+  dev:
+    desc: Rebuild main.js on every change of src.
+    cmds:
+      - npm run dev
+
+  build:
+    desc: Check types and build main.js that obsidian loads.
+    cmds:
+      - npm run build
+
+  test:
+    desc: For now the same as build - types have to be right and bundle has to be made.
+    cmds:
+      - task: build
